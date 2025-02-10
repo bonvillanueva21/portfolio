@@ -1,4 +1,5 @@
 import fvrs from "./../assets/images/projects/fvrs.png";
+import reactPortfolio from "./../assets/images/projects/react-portfolio.png";
 
 export const experience = [
   {
@@ -19,10 +20,9 @@ export const projects = [
     techonologies: ["Bootstrap", "CSS", "Javascipt", "PHP", "MySql"],
   },
   {
-    img: fvrs,
+    img: reactPortfolio,
     title: "Web Portfolio",
-    description:
-      "A personal web portfolio designed to showcase my skills, projects, experience and contact information.",
+    description: "A personal web portfolio designed to showcase my skills, projects, and experience.",
     techonologies: ["React.js", "Tailwind"],
   },
 ];
