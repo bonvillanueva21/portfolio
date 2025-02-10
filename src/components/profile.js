@@ -22,7 +22,7 @@ function Profile() {
       transition={{ type: "spring", stiffness: 30 }}
       className="border-2 border-gray-700 rounded-2xl px-10 py-12 max-w-lg"
     >
-      <img src={profileImg} alt="Angelo Villanueva" className="mx-auto size-fit md:size-96 mb-10 rounded-xl" />
+      <img src={profileImg} alt="Angelo Villanueva" width={800} height={800} className="mx-auto mb-10 rounded-xl" />
 
       {/* social */}
       <div className="flex flex-wrap items-center justify-center gap-4 mb-10">
