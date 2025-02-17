@@ -1,4 +1,5 @@
 import fvrs from "./../assets/images/projects/fvrs.png";
+import scims from "./../assets/images/projects/scims.png";
 import reactPortfolio from "./../assets/images/projects/react-portfolio.png";
 
 export const experience = [
@@ -17,13 +18,20 @@ export const projects = [
     title: "Fishing Vessel Registration System",
     description:
       "A fully functional system allows users to easily register fishing vessels, manage renewals, and process cancellations. It also offers the ability to generate and print detailed reports, providing an efficient way to track and manage vessel data.",
-    techonologies: ["Bootstrap", "CSS", "Javascipt", "PHP", "MySql"],
+    techonologies: ["Bootstrap", "CSS", "Javascipt", "JQuert", "PHP", "MySql"],
   },
   {
     img: reactPortfolio,
     title: "Web Portfolio",
     description: "A personal web portfolio designed to showcase my skills, projects, and experience.",
-    techonologies: ["React.js", "Tailwind"],
+    techonologies: ["React.js", "TailwindCSS"],
+  },
+  {
+    img: scims,
+    title: "San Carlos Integrated System",
+    description:
+      "The San Carlos Integrated System (SCIMS) is a team project that consolidates multiple systems into a unified platform, allowing users to access various systems with a single login based on their specific roles and permissions. SCIMS ensures a secure, efficient, and user-friendly experience while simplifying administrative management across all integrated systems.",
+    techonologies: ["TailwindCSS", "Javascript", "JQuery", "PHP", "MySql"],
   },
 ];
 
