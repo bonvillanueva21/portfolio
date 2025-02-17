@@ -18,7 +18,7 @@ export const projects = [
     title: "Fishing Vessel Registration System",
     description:
       "A fully functional system allows users to easily register fishing vessels, manage renewals, and process cancellations. It also offers the ability to generate and print detailed reports, providing an efficient way to track and manage vessel data.",
-    techonologies: ["Bootstrap", "CSS", "Javascipt", "JQuery", "PHP", "MySql"],
+    techonologies: ["Bootstrap", "CSS", "Javascript", "JQuery", "PHP", "MySql"],
   },
   {
     img: reactPortfolio,
