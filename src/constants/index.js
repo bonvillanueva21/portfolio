@@ -1,6 +1,7 @@
 import fvrs from "./../assets/images/projects/fvrs.png";
 import scims from "./../assets/images/projects/scims.png";
 import reactPortfolio from "./../assets/images/projects/react-portfolio.png";
+import { useState, useEffect } from "react";
 
 export const experience = [
   {
@@ -59,3 +60,21 @@ export const iconVariants = (duration) => ({
     },
   },
 });
+
+export const useDarkMode = () => {
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    return localStorage.getItem("darkMode") === "true";
+  });
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("darkMode", "true");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("darkMode", "false");
+    }
+  }, [isDarkMode]);
+
+  return [isDarkMode, setIsDarkMode];
+};

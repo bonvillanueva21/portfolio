@@ -20,7 +20,7 @@ function Technologies() {
     <Element id="technologies" className="w-full border-b border-gray-600 pb-10 mb-10 md:mb-16">
       <motion.h2
         {...animationConfig(hasAnimatedTechTitle, setHasAnimatedTechTitle, 0.1)}
-        className="text-3xl font-semibold mb-10 text-center md:text-left text-gray-300"
+        className="text-3xl font-semibold mb-10 text-center md:text-left text-gray-700 dark:text-gray-300"
       >
         Tech Stacks
       </motion.h2>
@@ -32,7 +32,7 @@ function Technologies() {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <TbBrandHtml5 className="text-5xl text-orange-500" />
         </motion.div>
@@ -40,7 +40,7 @@ function Technologies() {
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <TbBrandCss3 className="text-5xl text-blue-400" />
         </motion.div>
@@ -48,7 +48,7 @@ function Technologies() {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <TbBrandReact className="text-5xl text-blue-500" />
         </motion.div>
@@ -56,7 +56,7 @@ function Technologies() {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <FaBootstrap className="text-5xl text-violet-600" />
         </motion.div>
@@ -64,7 +64,7 @@ function Technologies() {
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <SiPhp className="text-5xl text-violet-700" />
         </motion.div>
@@ -72,7 +72,7 @@ function Technologies() {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-700 p-3"
+          className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-700 p-3"
         >
           <SiMysql className="text-5xl text-orange-500" />
         </motion.div>

@@ -20,7 +20,8 @@ function Profile() {
         }
       }}
       transition={{ type: "spring", stiffness: 30 }}
-      className="border-2 border-gray-700 rounded-2xl px-10 py-12 max-w-lg"
+      id="hero"
+      className="border-2 border-gray-300 dark:border-gray-700 rounded-2xl px-10 py-12 max-w-lg"
     >
       <img src={profileImg} alt="Angelo Villanueva" width={800} height={800} className="mx-auto mb-10 rounded-xl" />
 
@@ -30,7 +31,7 @@ function Profile() {
           href="https://github.com/bonvillanueva21"
           target="_blank"
           rel="noreferrer"
-          className="hover:scale-125 text-gray-300 hover:text-gray-600"
+          className="hover:scale-125 text-gray-700 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-600"
         >
           <FaGithub className="text-4xl mb-2" />
         </a>
@@ -38,24 +39,26 @@ function Profile() {
           href="https://www.linkedin.com/in/angelo-villanueva-92222b31a/"
           target="_blank"
           rel="noreferrer"
-          className="hover:scale-125 text-gray-300 hover:text-blue-500"
+          className="hover:scale-125 text-blue-500 hover:text-blue-700 dark:text-gray-300 dark:hover:text-blue-500"
         >
           <FaLinkedin className="text-4xl mb-2" />
         </a>
       </div>
 
       {/* education */}
-      <h1 className="text-2xl font-semibold mb-2 text-center md:text-left text-gray-300">Hello, I'm</h1>
-      <h1 className="text-4xl md:text-5xl font-semibold mb-8 text-center md:text-left text-gray-300 first-letter:text-orange-500">
+      <h1 className="text-2xl font-semibold mb-2 text-center md:text-left text-gray-800 dark:text-gray-300">
+        Hello, I'm
+      </h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-8 text-center md:text-left text-gray-800 dark:text-gray-300 first-letter:text-orange-500">
         Angelo
       </h1>
       <div className=" flex  flex-wrap md:justify-center">
         <div className="w-full">
-          <p className="text-gray-400">
-            A passionate <b className="text-gray-300">Full Stack Developer</b> with a deep interest in creating dynamic
-            and user-friendly applications. With experience in both front-end and back-end technologies, I specialize in
-            developing functional and responsive websites. Always eager to learn new tools and frameworks, I enjoy
-            turning ideas into reality through code and design.
+          <p className="text-gray-700 dark:text-gray-400">
+            A passionate <b className="text-gray-800 dark:text-gray-300">Full Stack Developer</b> with a deep interest
+            in creating dynamic and user-friendly applications. With experience in both front-end and back-end
+            technologies, I specialize in developing functional and responsive websites. Always eager to learn new tools
+            and frameworks, I enjoy turning ideas into reality through code and design.
           </p>
         </div>
       </div>
